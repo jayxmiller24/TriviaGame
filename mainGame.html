@@ -9,6 +9,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Main Trivia Game!</title>
 </head>
@@ -35,8 +36,8 @@
             <div class="col-sm-4"></div>
             <div class="col-sm-4 center" id="question2">
                 <p>The movie "Up" has a lot of balloons.</p>
-                <button type="button" class="btn-2 btn-primary" value="true">True</button>
-                <button type="button" class="btn-2 btn-warning" value="false">False</button>
+                <button type="button" class="btn-2 btn-primary" value=true>True</button>
+                <button type="button" class="btn-2 btn-warning" value=false>False</button>
 
             </div>
 
@@ -65,7 +66,7 @@
                 <button type="button" class="btn-4 btn-warning" value="false">False</button>
                 <div class="col-sm-4"></div>
 
-                
+
             </div>
 
         </div>
@@ -80,12 +81,15 @@
 
             </div>
         </div>
+        <br>
+        <hr>
         <div class="row">
-                <button type="button" class="btn-6 btn-primary" value="Submit">Submit</button>
-            <div class="col-sm-4correct"></div>
-
+            <div class="col-sm-2"> <button type="button" class="btn-6 btn-primary" value="Submit">Submit</button>
+            </div>
+            <div class="col-sm-4 correct"></div>
+            <div class="col-sm-6 wrong"></div>
         </div>
-        <div class="col-sm-6 wrong"></div>
+        
     </div>
 
 </body>
