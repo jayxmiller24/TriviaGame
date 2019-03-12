@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/music.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style1.css">
+
     <title>Trivia Game</title>
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron">
-                <h1 class="display-4 mx-auto">Pixar Trivia Game!</h1>
-                <p class="lead mx-auto">When game starts choose true or false to the question, you have until the timer runs out, it will then show how many you got wrong or right at the end of the game</p>
-                
-                <a class="btn btn-primary btn-lg mx-auto" href="mainGame.html" role="button">Click button to Start!</a>
+        <div class="jumbotron parallax">
+                <h1 class="display-4 text-center">Pixar Trivia Game!</h1>
+                <p class="lead">When game starts choose true or false to the question, you have until the timer runs out, it will then show how many you got wrong or right at the end of the game.Hit submit if you're done early.</p>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                <button class="btn btn-warning btn-xs theme-button">
+                    <span class="fa fa-music"></span> Play Theme!</button>
+                    </div>
+                    <div class="col-sm-4">
+                  <button class="btn btn-warning btn-xs pause-button">
+                    <span class="fa fa-pause"></span> Pause Song</button>
+                    </div>
+                    <div class="col-sm-4">
+                    <a class="btn btn-primary btn-lg text-center" href="mainGame.html" role="button">Click button to Start!</a>
+                </div>
+                </div>
               </div>
               </div>
 

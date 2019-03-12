@@ -1,4 +1,10 @@
-body{
-    background-image: url("/assets/images/pixar.jpeg");
 
+body {
+    background-color: grey;
 }
+
+.container { 
+    
+    background-color:rgb(77, 70, 167);
+  
+  }
